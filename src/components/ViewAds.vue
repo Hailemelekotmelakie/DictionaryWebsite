@@ -153,9 +153,8 @@ export default {
   background-color: white;
 }
 h5 {
-  line-height: 2rem;
-  padding: 0;
-  margin: 0;
+  line-height: 1rem;
+  margin: 10px 0;
 }
 .dropDownOnEdit {
   position: fixed;
