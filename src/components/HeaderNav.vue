@@ -19,25 +19,22 @@ export default {
   gap: 20px;
   align-items: center;
   justify-content: flex-end;
-  background-color: rgb(0, 168, 225);
-  color: aliceblue;
+  background-color: rgb(75, 190, 180);
 }
-.router-link-active {
-  color: aliceblue;
+.router-link-exact-active,
+a:hover {
+  background: linear-gradient(315deg, #fca61f 0%, #4506ff 100%);
+  color: rgb(0, 0, 0);
 }
 a {
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  padding: 15px;
+  padding: 10px 20px;
+  margin: 5px;
   font-size: 15px;
   font-weight: 700;
-  transition: 1s;
-  border-radius: 4px;
-}
-a:hover,
-a:focus {
-  color: rgb(0, 0, 0);
-  background-color: rgb(83, 207, 248);
+  transition: 0.5s;
+  border-radius: 20px;
 }
 @media screen and (max-width: 890px) {
   .navContainer {

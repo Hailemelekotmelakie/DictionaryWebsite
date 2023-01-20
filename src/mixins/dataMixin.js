@@ -39,7 +39,7 @@ export default {
             this.error = null
             return (content == null)
                 ? false
-                : (content.length < 50 && content.length > 4) ? true : false
+                : (content.length < 51 && content.length > 3) ? true : false
         }
     }
 }

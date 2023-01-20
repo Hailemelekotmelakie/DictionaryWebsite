@@ -183,6 +183,7 @@ h5 {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  margin: 10px;
 }
 .updateCancelContainerInput {
   padding: 10px;
@@ -209,6 +210,9 @@ h5 {
 .errorLabel {
   font-size: 12px;
   color: brown;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .listOfAds {
   padding: 20px;
