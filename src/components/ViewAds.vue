@@ -229,8 +229,6 @@ h5 {
   }
   .OneAds {
     margin: 5px;
-    align-items: flex-start;
-    padding: 7px;
   }
   h5 {
     text-align: left;
